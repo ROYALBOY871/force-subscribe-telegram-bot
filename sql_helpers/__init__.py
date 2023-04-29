@@ -17,5 +17,5 @@ try:
     SESSION = start()
 except AttributeError as e:
     # this is a dirty way for the work-around required for #23
-    print("DATABASE_URL is not configured. Features depending on the database might have issues.")
+    print("DATABASE_URL is not configured. Features depending on the database might have issues For support - @TeamEvon & Join - @Evonity")
     print(str(e))
