@@ -8,7 +8,7 @@ class Config():
     APP_ID = os.environ.get("APP_ID", 6)
     API_HASH = os.environ.get("API_HASH", None)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(6296990393)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
     BOT_TOKEN = ""
@@ -16,7 +16,7 @@ class Config():
     APP_ID = ""
     API_HASH = ""
     SUDO_USERS = list(set(int(x) for x in ''.split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(6296990393)
     SUDO_USERS = list(set(SUDO_USERS))
 
 
@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
         
-        "**Developed by @viperadnan**"
+        "**Developed by @Evonity**"
       ]
 
       START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
